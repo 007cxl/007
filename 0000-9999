@@ -1,0 +1,4 @@
+with open('fffff.txt', 'a')as f:
+        for i in range(100000000, 999999999):
+            f.write(str(i))
+            f.write('\n')
